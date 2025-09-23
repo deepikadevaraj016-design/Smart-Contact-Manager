@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    padding: 10px 30px;
+
+
+}
+
+#nav-bar h1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#312f2f;
+    
+}
+
+header nav li {
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+
+.nav-links{
+    display: flex;
+    gap: 10px;
+}
+
+
+nav li a{
+    text-decoration: none;
+    color:#312f2f;
+    font-weight: bold;
+}
+
+
+#contact-sec{
+    margin-top: 5%;
+    color:#312f2f;    
+}
+
+#contact-sec h1{
+    font-size: 50px;
+    text-align: center;
+   margin-bottom: 1%;
+}
+
+#contact-sec .coffee-question {
+   
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+}
+
+#contact-sec .social-medias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+#contact-sec .social-media {
+    text-decoration: none;
+    color: #312f2f;
+    transition: transform 0.2s ease-in;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 22px;
+}
+
+.social-medias a i {
+    width: 25px;
+}
+
+#contact-sec .social-media :hover{
+    transform: translateY(10px);
+}
+
+footer {
+    border-top: 3px solid #312f2f;
+    text-align: center;
+    margin: 20px;
+}
+
+footer p{
+    color: #312f2f;
+    font-size: 18px;
+    margin-top: 20px;
+}   
