@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:5500/api/contact";
+const API_BASE_URL = "https://smart-contact-manager-5qqw.onrender.com/api/contact";
 const token = localStorage.getItem("token");
 
 const contactModal = document.getElementById("contactModal");
